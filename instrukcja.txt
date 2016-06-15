@@ -1,0 +1,9 @@
+Program służy do przetwarzania danych pacjentów lecznicy weterynaryjnej.
+
+#W pierwszej zakładce możemy dodać zwierzaka z jednej z trzech kategorii przyjmowanych w lecznicy pacjentów.
+W textbox 'Wiek' nie mozna wpisać innej wartości niż int - obsługa wyjatku.
+
+#W zakładce 'Edytuj dane' można wybrać z combobox'a zwierzaka i zedytować jego dane oraz zablokować (lub odblokować) możliwość wizyt, co uniemożliwi (lub przywróci) mozliwość dodania zabiegu lub wizyty w zakładkach 3-5. 
+Jestem świadoma, że w tej zakładce program się wysypuje, button 'zmien' od imie zwierzaka ściaga dane z textbox'a 'opis wygladu, a textbox 'imie zwierzaka' jest nieobsłużony (do ewentualnej poprawy).
+
+#W zakładkach 3-5 można wybrać danego zwierzaka i zapisać go na wizytę lub zabieg (do każdego licznik).
